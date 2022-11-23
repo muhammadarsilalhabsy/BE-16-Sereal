@@ -67,38 +67,7 @@
 {
 }
 ```
-### Profile
-#### Get Profile
-- Method: **GET**
-- Endpoint: `/profile`
-- Response:
-```json
-{
-}
-```
 
-#### Update Profile
-- Method: **POST**
-- Endpoint: `/profile/edit`
-- Body :
-```json
-{
-}
-```
-- Response:
-```json
-{
-}
-```
-
-### Dashboard
-- Method: **GET**
-- Endpoint: `/dashboard`
-- Response:
-```json
-{
-}
-```
 
 ### Kelas
 #### Get All Kelas
@@ -109,17 +78,18 @@
 {
 }
 ```
-#### Get Kelas
+#### Get Kelas by ID
 - Method: **GET**
-- Endpoint: `kelas/{nama_kelas}`
+- Endpoint: `kelas/{id}`
 - Response:
 ```json
 {
 }
 ```
+### Get Kelas by categories
+> pake req.query
 <!-- Admin -->
-> bole diskusi lagi
-#### Update Kelas
+#### Update Kelas by ID
 - Method: **POST**
 - Endpoint: ``
 - Response:
@@ -129,14 +99,8 @@
 ```
 #### Delete Kelas by ID
 
-
-### Materi
-#### Get Materi 
-- Method: **POST**
-- Endpoint: `kelas/{nama_kelas}/{nama materi|index materi}`
-- Response:
-```json
-{
-}
-```
-### Galeri
+### Materi 
+### Galeries
+### Challenges
+### Categories
+### Users
